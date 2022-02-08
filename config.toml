@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = 'en-us'
+title = 'Hugo Sub-Site'
+
+[security]
+[security.exec]
+osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|HOME|SSH_AUTH_SOCK|USERPROFILE|XDG_CONFIG_HOME)$']
+
+[module]
+[module.imports]
+path = "github.com/alex-shpak/hugo-book"
