@@ -1,0 +1,11 @@
+baseURL: "http://example.org/"
+languageCode: 'en-us'
+title: 'Hugo Sub-Site'
+
+enableGitInfo: true
+
+menu:
+  after:
+  - name: "Schema"
+    url: "https://studio.apollographql.com/graph/platform-graph-rr6xe8/schema/reference?variant=dev-uk"
+    weight: 10
