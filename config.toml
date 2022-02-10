@@ -2,9 +2,22 @@ baseURL = "http://example.org/"
 languageCode = 'en-us'
 title = 'Hugo Sub-Site'
 
-[security]
-[security.exec]
-osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|HOME|SSH_AUTH_SOCK|USERPROFILE|XDG_CONFIG_HOME)$']
+enableGitInfo = true
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Schema"
+  url = "https://studio.apollographql.com/graph/platform-graph-rr6xe8/schema/reference?variant=dev-uk"
+  weight = 1
+#[[menu.after]]
+#  name = "Status"
+#  url = "#"
+#  weight = 2
+[[menu.after]]
+  name = "GitHub"
+  url = "https://github.com/babylonhealth/platform-documentation"
+  weight = 10
 
 [module]
 [module.imports]
