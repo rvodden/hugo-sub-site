@@ -1,4 +1,4 @@
-module github.com/babylonhealth/hugo-sub-site
+module github.com/rvodden/hugo-sub-site
 
 go 1.16
 
